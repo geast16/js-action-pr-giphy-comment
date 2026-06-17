@@ -1,12 +1,18 @@
-name: 'Giphy PR Comment'
-description: 'Posts a Giphy GIF comment on new pull requests.'
+name: 'KodeKloud Giphy PR Comment'
+description: 'Automatically add a Giphy GIF comment to new pull requests.'
+
 inputs:
   github-token:
-    description: 'GitHub token for authentication'
+    description: 'GitHub token with repo access'
     required: true
   giphy-api-key:
     description: 'Your Giphy API key'
     required: true
+
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+branding:
+  icon: 'activity'
+  color: 'blue'
