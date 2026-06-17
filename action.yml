@@ -1,0 +1,12 @@
+name: 'Giphy PR Comment'
+description: 'Posts a Giphy GIF comment on new pull requests.'
+inputs:
+  github-token:
+    description: 'GitHub token for authentication'
+    required: true
+  giphy-api-key:
+    description: 'Your Giphy API key'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

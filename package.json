@@ -1,0 +1,30 @@
+{
+  "name": "js-action-pr-giphy-comment",
+  "version": "1.0.0",
+  "description": "GitHub Actions Lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geast16/js-action-pr-giphy-comment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/geast16/js-action-pr-giphy-comment/issues"
+  },
+  "homepage": "https://github.com/geast16/js-action-pr-giphy-comment#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@octokit/rest": "^20.0.1",
+    "giphy-api": "^2.0.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.0"
+  }
+}
